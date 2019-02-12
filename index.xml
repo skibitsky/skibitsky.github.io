@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gleb Skibitsky</title>
-    <link>https://skibitsky.github.io/</link>
+    <link>https://skibitsky.com/</link>
     <description>Recent content on Gleb Skibitsky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sat, 09 Feb 2019 16:59:46 +0200</lastBuildDate>
     
-	<atom:link href="https://skibitsky.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://skibitsky.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://skibitsky.github.io/about/</link>
+      <link>https://skibitsky.com/about/</link>
       <pubDate>Sat, 09 Feb 2019 16:59:46 +0200</pubDate>
       
-      <guid>https://skibitsky.github.io/about/</guid>
+      <guid>https://skibitsky.com/about/</guid>
       <description>Hi, I am Gleb 👋
 I&amp;rsquo;m very passionate about game development. Worked at many indie projects of different scale as a developer, manager, and advisor.
 I&amp;rsquo;ve just created this website, more content is coming soon 😸
