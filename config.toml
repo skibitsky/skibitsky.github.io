@@ -1,4 +1,4 @@
-baseURL = "https://skibitsky.com"
+baseURL = "http://skibitsky.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Gleb Skibitsky"
