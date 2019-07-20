@@ -1,7 +1,7 @@
 baseURL = "https://skibitsky.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "SKIBITSKY"
+title = "Gleb Skibitsky"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
