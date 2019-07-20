@@ -7,9 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 09 Feb 2019 16:59:46 +0200</lastBuildDate>
     
 	<atom:link href="https://skibitsky.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://skibitsky.com/about/</link>
+      <pubDate>Sat, 09 Feb 2019 16:59:46 +0200</pubDate>
+      
+      <guid>https://skibitsky.com/about/</guid>
+      <description>Hi, I am Gleb 👋
+I&amp;rsquo;m very passionate about game development. Worked at many indie projects of different scale as a developer, manager, and advisor.
+I&amp;rsquo;ve just created this website, more content is coming soon 😸
+Background In 2016 joined GameInsight as a game developer working on mobile and AR games, but quit after two years to found my own company - Dragonglass. Developed and launched the world&amp;rsquo;s first blockchain mobile game along with the Dragonglass ICO.</description>
+    </item>
     
   </channel>
 </rss>
