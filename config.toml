@@ -1,29 +1,14 @@
-baseURL = "https://skibitsky.com"
+baseurl = "/"
 languageCode = "en-us"
-defaultContentLanguage = "en"
-title = "Gleb Skibitsky"
-theme = "hermit"
-# enableGitInfo = true
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
-rssLimit = 10  # Maximum number of items in the RSS feed.
+theme = "hello-friend-ng"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
-# disqusShortname = "yourdiscussshortname"
 
 [author]
   name = "Gleb Skibitsky"
-
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
-
-[taxonomies]
-  tag = "tags"
-  category = ""  # Categories are disabled by default.
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -32,25 +17,42 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#2F7CA5"
+  description = "The personal website of Gleb Skibitsky"
+  keywords = "homepage, blog, informatics, development, programming, games, blockchain"
+  images = [""]
 
-  homeSubtitle = ""
-  #footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  #bgImg = "https://images.unsplash.com/photo-1549443442-e981d27df640?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"  # Homepage background-image URL
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
+[languages]
+  [languages.en]
+    title = "Gleb Skibitsky"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
 
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
+    [languages.en.params.logo]
+      logoText = "$ cd /home/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-  # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+  # You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "GitHub"
+        name = "GitHub"
+        url = "https://github.com/skibitsky"
 
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/skibitsky"
@@ -62,19 +64,20 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   [[params.social]]
     name = "github"
     url = "https://github.com/skibitsky"
-
-   [[params.social]]
+  [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/skibitsky/"
+  [[params.social]]
+    name = "email"
+    url = "mailto:gleb@skibitsky.com"
 
+# And you can even create generic menu
 [menu]
-
-  #[[menu.main]]
-   # name = "Posts"
-   # url = "posts/"
-   # weight = 10
-
   [[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 20
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
