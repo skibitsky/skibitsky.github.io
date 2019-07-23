@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/skibitsky/skibitsky.github.io.git
 	branch = master
+[submodule "themes/hello-friend-ng"]
+	path = themes/hello-friend-ng
+	url = https://github.com/skibitsky/hugo-theme-hello-friend-ng.git
