@@ -49,6 +49,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
+        identifier = "Projects"
+        name = "Projects"
+        url = "/projects"
+      [[languages.en.menu.main]]
         identifier = "GitHub"
         name = "GitHub"
         url = "https://github.com/skibitsky"
@@ -78,6 +82,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name       = "About"
     url        = "/about"
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
