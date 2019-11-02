@@ -79,6 +79,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "email"
     url = "mailto:gleb@skibitsky.com"
 
+[mediaTypes]
+  [mediaTypes."text/plain"]
+  suffixes = ["asc"]
+
 # And you can even create generic menu
 [menu]
   [[menu.main]]
