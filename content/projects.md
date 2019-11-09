@@ -11,10 +11,10 @@ Most of projects I'm working on as a developer are still under NDA, but I enjoy 
 
 [**Awesome Stars**](https://github.com/skibitsky/awesome-stars) →  A curated list of my GitHub 500+ stars sorted by languages.
 
-[**alfred-timing**](https://github.com/skibitsky/alfred-timing) → ⏳ Alfred workflow for [Timing](https://imingapp.com) app
+[**Alfred Timing**](https://github.com/skibitsky/alfred-timing) → ⏳ Alfred workflow for [Timing](https://imingapp.com) app
 
-[**PlayerPrefs-Utils**](https://github.com/skibitsky/PlayerPrefs-Utils) →  A little tool to manage Player Preferences from Unity Editor.
+[**PlayerPrefs Utility**](https://github.com/skibitsky/PlayerPrefs-Utils) →  A little tool to manage Player Preferences from Unity Editor.
 
 [**Current Task**](https://github.com/skibitsky/current-task) →  🗻 This utility allows me to focus on one task at a time.
 
-[**unity-rich-text**](https://github.com/skibitsky/unity-rich-text) →  🌈 Forgot about rich text tags pain
+[**Unity Rich Text**](https://github.com/skibitsky/unity-rich-text) →  🌈 Forgot about rich text tags pain
