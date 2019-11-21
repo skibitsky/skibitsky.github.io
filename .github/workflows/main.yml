@@ -25,4 +25,4 @@ jobs:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         EXTERNAL_REPOSITORY: skibitsky/skibitsky.github.io
         PUBLISH_BRANCH: master
-        #PUBLISH_DIR: ./public
+        PUBLISH_DIR: ./
