@@ -1,0 +1,95 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+
+[author]
+  name = "Gleb Skibitsky"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "The personal website of Gleb Skibitsky"
+  keywords = "homepage, blog, informatics, development, programming, games, blockchain"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+[languages]
+  [languages.en]
+    title = "Gleb Skibitsky"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "$ cd /home/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "Projects"
+        name = "Projects"
+        url = "/projects"
+      [[languages.en.menu.main]]
+        identifier = "GitHub"
+        name = "GitHub"
+        url = "https://github.com/skibitsky"
+      [[languages.en.menu.main]]
+        identifier = "Resume"
+        name = "Resume"
+        url = "/resume-skibitsky.pdf"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/skibitsky"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/skibitsky"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/skibitsky"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/skibitsky/"
+  [[params.social]]
+    name = "email"
+    url = "mailto:gleb@skibitsky.com"
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+  suffixes = ["asc"]
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
