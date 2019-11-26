@@ -11,7 +11,7 @@ Most of projects I'm working on as a developer are still under NDA, but I enjoy 
 
 [**Awesome Stars**](https://github.com/skibitsky/awesome-stars) →  A curated list of my GitHub 500+ stars sorted by languages.
 
-[**Alfred Timing**](https://github.com/skibitsky/alfred-timing) → ⏳ Alfred workflow for [Timing](https://imingapp.com) app
+[**Alfred Timing**](https://github.com/skibitsky/alfred-timing) → ⏳ Alfred workflow for [Timing](https://timingapp.com) app
 
 [**PlayerPrefs Utility**](https://github.com/skibitsky/PlayerPrefs-Utils) →  A little tool to manage Player Preferences from Unity Editor.
 
