@@ -22,3 +22,4 @@ jobs:
         ISSUE_TITLE: Link Checker Report
         ISSUE_CONTENT_FILEPATH: ./link-checker/out.md
         ISSUE_LABELS: report, automated issue
+        ISSUE_ASSIGNEES: skibitsky
