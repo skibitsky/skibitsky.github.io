@@ -1,4 +1,4 @@
-name: update skibitsky.com
+name: Deploy on GH Pages
 
 on:
   push:
