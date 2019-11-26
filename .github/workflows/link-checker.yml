@@ -1,6 +1,8 @@
-name: Check markdown links
+name: Check broken links
 
-on: [push]
+on:
+  schedule:
+  - cron: 0 0 1 * *
 
 jobs:
   build:
