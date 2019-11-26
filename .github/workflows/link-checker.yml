@@ -14,7 +14,7 @@ jobs:
     - name: Link Checker
       uses: peter-evans/link-checker@v1.0.1
       with:
-        args: -v -r **/content/*
+        args: -v -r *
     - name: Create Issue From File
       uses: peter-evans/create-issue-from-file@v1.0.1
       env:
