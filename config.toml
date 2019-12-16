@@ -6,6 +6,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+googleAnalytics = "UA-154564632-1"
 
 [author]
   name = "Gleb Skibitsky"
@@ -13,8 +14,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04 -0700"
 
   # Metadata mostly used in document's head
   description = "The personal website of Gleb Skibitsky"
