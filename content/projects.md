@@ -17,4 +17,4 @@ Most of projects I'm working on as a developer are still under NDA, but I enjoy 
 
 [**Current Task**](https://github.com/skibitsky/current-task) →  🗻 This utility allows me to focus on one task at a time.
 
-[**Unity Rich Text**](https://github.com/skibitsky/unity-rich-text) →  🌈 Forgot about rich text tags pain
+[**Unity Rich Text**](https://github.com/skibitsky/unity-rich-text) →  🌈 Forget about rich text tags pain
