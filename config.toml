@@ -5,6 +5,7 @@ theme = "hello-friend-ng"
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
+enableGitInfo = true
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "UA-154564632-1"
 
@@ -21,6 +22,11 @@ googleAnalytics = "UA-154564632-1"
   description = "The personal website of Gleb Skibitsky"
   keywords = "homepage, blog, informatics, development, programming, games, blockchain"
   images = [""]
+
+  homeSubtitle = "Software Engineer // Game Developer"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  gitUrl = "https://github.com/skibitsky/skibitsky.github.io/commit/"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
