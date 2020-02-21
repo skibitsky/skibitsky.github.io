@@ -20,7 +20,7 @@ googleAnalytics = "UA-154564632-1"
 
   # Metadata mostly used in document's head
   description = "The personal website of Gleb Skibitsky"
-  keywords = "homepage, blog, informatics, development, programming, games, blockchain"
+  keywords = "homepage, blog, development, programming, games, blockchain, gamedev, skibickij"
   images = [""]
 
   homeSubtitle = "Software Engineer // Game Developer"
