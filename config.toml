@@ -55,10 +55,10 @@ googleAnalytics = "UA-154564632-1"
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "Projects"
-        name = "Projects"
-        url = "/projects"
+      # [[languages.en.menu.main]]
+      #   identifier = "Projects"
+      #   name = "Projects"
+      #   url = "/projects"
       [[languages.en.menu.main]]
         identifier = "GitHub"
         name = "GitHub"
