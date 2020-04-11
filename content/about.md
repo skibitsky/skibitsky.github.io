@@ -23,5 +23,5 @@ At Dragonglass our goal was to shape the future of the gaming industry and bring
 I am a founder of [Different](https://different.lt) - creative software development agency, offering a full development cycle of games and interactive experiences. Our focus was mostly on the latest technologies: AR (ARKit, AR Code and Vuforia) and WebGL. 
 
 ### Futuclass
-I joined Futuclass in January 2020 as the developer.
+I joined [Futuclass](https://www.futuclass.com/) in January 2020 as the developer.
 Futuclass is an educational virtual reality game for upper middle school students. The goal is to solve puzzles based in science. Knowledge learned in science classes gets a practical outlet.
