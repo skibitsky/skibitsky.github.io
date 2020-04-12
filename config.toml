@@ -60,9 +60,9 @@ googleAnalytics = "UA-154564632-1"
       #   name = "Projects"
       #   url = "/projects"
       [[languages.en.menu.main]]
-        identifier = "GitHub"
-        name = "GitHub"
-        url = "https://github.com/skibitsky"
+        identifier = "Uses"
+        name = "Uses"
+        url = "/uses"
       # [[languages.en.menu.main]]
       #   identifier = "Resume"
       #   name = "Resume"
