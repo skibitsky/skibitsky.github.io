@@ -47,7 +47,7 @@ draft: false
 * [TunnelBear](https://www.tunnelbear.com) - VPN
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - macOS kernel extension that allows to monitor all network request and some of block them under a certain conditions. It is common to use ad blockers and privacy extensions nowadays, but these block only browser activity. Most of the apps use services by companies like Google or Facebook for various reasons. With Little Snitch it is possible to block these as well. I have 105 rules only for blocking Google analytics and various ad requests 🙂
 * [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html) - track camera and mic usage. An alternative to [OverSight](https://www.producthunt.com/posts/oversight-2) but without annoying notifications
-## Tools and mics 
+## Tools and misc 
 * [Transmission](https://transmissionbt.com/)  - BitTorrent client
 * [Archiver](https://archiverapp.com) - archive manager. Supports all major formats and has minimalistic UI.
 * [Squash](https://www.realmacsoftware.com/squash/) - for quick image compression
