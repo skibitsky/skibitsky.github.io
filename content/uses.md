@@ -14,7 +14,7 @@ draft: false
 * [Things 3](http://culturedcode.com) - my task management system. All my personal, hobby, study and work tasks live there. It has a lot of powerful features and pleasant design (Apple Design Award)
 * [Alfred](https://www.alfredapp.com) - it is not just a spotlight (default and powerful search interface on macOS) replacement, it’s a command centre. I use different workflows more than a hundred times per day. Some of them will be referenced below. Also, I use [current-task](https://github.com/skibitsky/current-task) workflow as the core element of the whole CT (Current Task) system. It is based on my [alfred-timing](https://github.com/skibitsky/alfred-timing) workflow
 * [Bear](https://bear.app) - note taking app. All notes are stored in iCloud. Has Markdown and media support. Besides regular notes, Bear is my [personal knowledge base](https://en.wikipedia.org/wiki/Personal_knowledge_base). I access my notes using [this](https://github.com/drgrib/alfred-bear) Alfred workflow that allows me to quickly open a floating window with any note 
-	![](/images/alfred-bear-screenshot.png)
+	![](https://skibitsky.com/images/alfred-bear-screenshot.png)
 	I can then export the note from Bear (I prefer PDF) to share it with somebody
 * [Fantastical 2](https://flexibits.com/fantastical) - my favourite calendar app. Has [NLP](https://en.wikipedia.org/wiki/Natural%20language%20processing) support
 * [Timing](https://timingapp.com/?lang=en) - the tracking app. I track all my “digital” time using Timing’s rules and my [current-task](https://github.com/skibitsky/current-task) Alfred workflow
@@ -61,7 +61,7 @@ draft: false
 ## Communication
 * [Tweetbot](https://tapbots.com/tweetbot/mac/) - Twitter client
 * [Telegram](https://telegram.org) - main instant messaging app. I use native macOS client because it has more features over the Qt one (i.e. secret chats)
-* [Slack](slack.com) - work communication
+* [Slack](https://slack.com) - work communication
 * [Discord](http://discordapp.com) - communities
 * [FaceTime](https://en.wikipedia.org/wiki/FaceTime) - the best video calls experience
 * [Skype](https://www.skype.com/en/) - cross-platform video calls
