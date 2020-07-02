@@ -6,7 +6,7 @@ draft: false
 ![screenfetch_mac](https://github.com/skibitsky/dotfiles/raw/master/media/screenshot.png)
 
 ## Browsers
-* [Safari](https://www.apple.com/safari/) - my main browser. It is fast, respects privacy and [RAM](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ZGLehLtVxlR6iIMBecQDIgHaHa%26pid%3DApi&f=1)
+* [Safari](https://www.apple.com/safari/) - my main browser. It's fast and respects privacy
 * [Firefox](https://www.mozilla.org/en-US/firefox/) - amazing open source browser. I would use it as my main browser if it had a level of synchronisation between Mac and iPhone that Safari has
 * [Brave](https://brave.com) - if suddenly I need Chromium, I use Brave
 
