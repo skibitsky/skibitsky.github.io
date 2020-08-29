@@ -3,28 +3,16 @@ title: "About"
 date: 2019-02-09T16:59:46+02:00
 draft: false
 ---
+![](/images/me.png)
+
 Hi, I am Gleb 👋
 
-I make software and live a happy life. Worked at many projects as a developer, manager, and advisor.
+I am maker working mostly on Unity stuff. 
 
-I have some ideas for this website that are still brewing in my head and waiting for a spare time. As for now, this is just a digital business card 🙂
+Planing to make a nice-looking "My Projects" page on this website to write about all cool things I worked on. Meanwhile you can check out my [GitHub](https://github.com/skibitsky) for open source projects or [LinkedIn](https://linkedin.com/in/skibitsky/) for formal experience.
 
-## Background
-I am very passionate about game and software development. 
+I don't have university degree and I regret not dropping out of school when I turned 16. Being very motivated in what I do, I find formal education to be a waste of time and resources. 
 
-### Game Insight
-Worked at many indie projects of different scale as a developer, manager, and advisor. At the age of 16 started my career at [GameInsight](https://game-insight.com) as a game developer working on mobile and AR games, but quit after two years to found my own company - [Dragonglass](https://web.archive.org/web/20191118004539/https://dragonglass.com/). 
+In people I value liberty, creativity and dedication. 
 
-### Dragonglass
-As the [Dragonglass](https://web.archive.org/web/20191118004539/https://dragonglass.com/) CTO, developed and launched the world's first blockchain mobile game along with the Dragonglass ICO. 
-
-After promoting to the CEO, started working on an ecosystem to connect games with the blockchain to let developers monetize games in new ways, gain control over the secondary market and allow players to transit progress between different games. We were the first company working on a solution for traditional games to enable blockchain in a seamless and player-friendly way. 
-At Dragonglass our goal was to shape the future of the gaming industry and bring blockchain to the mass adoption 🚀
-
-### Different agency
-I am a founder of [Different](https://different.lt) - creative software development agency, offering a full development cycle of games and interactive experiences. Our focus was mostly on the latest technologies: AR (ARKit, AR Code and Vuforia) and WebGL. 
-
-### Futuclass
-I joined [Futuclass](https://www.futuclass.com/) in January 2020 as the developer.
-
-Futuclass is an educational virtual reality game for upper middle school students. The goal is to solve puzzles based in science. Knowledge learned in science classes gets a practical outlet.
+Happy to be alive for the first and last time.

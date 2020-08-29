@@ -5,6 +5,8 @@ draft: false
 ---
 ![screenfetch_mac](https://github.com/skibitsky/dotfiles/raw/master/media/screenshot.png)
 
+This page describes software I use. Other people [also do](https://github.com/wesbos/awesome-uses/#awesome-uses-) such lists. I don't know why.
+
 ## Browsers
 * [Safari](https://www.apple.com/safari/) - my main browser. It's fast and respects privacy
 * [Firefox](https://www.mozilla.org/en-US/firefox/) - amazing open source browser. I would use it as my main browser if it had a level of synchronisation between Mac and iPhone that Safari has
