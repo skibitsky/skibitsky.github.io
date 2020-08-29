@@ -66,10 +66,8 @@ This page describes software I use. Other people [also do](https://github.com/we
 * [Slack](https://slack.com) - work communication
 * [Discord](http://discordapp.com) - communities
 * [FaceTime](https://en.wikipedia.org/wiki/FaceTime) - the best video calls experience
-* [Skype](https://www.skype.com/en/) - cross-platform video calls
 ## Finances
 * [Bisq](https://bisq.network) - open-source P2P cryptocurrency exchange
-* [Coin Tick](https://apps.apple.com/us/app/coin-tick-menu-bar-crypto/id1141688067?mt=12) - displays cryptocurrency prices in menu bar
 ## Office 
 * [iWork](https://www.apple.com/iwork/) - native apps for working with documents, spreadsheets, and presentations. Support collaboration and have web version.
 ## Software Management
@@ -85,7 +83,6 @@ This page describes software I use. Other people [also do](https://github.com/we
 * [gSwitch](https://codyschrank.github.io/gSwitch/) - open-source menu bar app that allows control over the gpu
 ## Safari Extensions 
 * [DuckDuckGo Privacy](https://duckduckgo.com/app) - blocks tracking
-* [Grammarly](https://www.grammarly.com) -  AI-powered writing assistant
 * [DarkReader](http://darkreader.org) - enables dark mode for all websites
 * [Cascadea](https://cascadea.app) - apply custom themes to the websites
 * [Select Like A Boss](https://apps.apple.com/lt/app/select-like-a-boss/id1437310115?mt=12) - allows to select text invite URLs. By default Safari will enable drag-and-drop mechanic

@@ -1,4 +1,5 @@
 baseurl = "/"
+title = "Gleb's Website"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
