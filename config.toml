@@ -73,9 +73,9 @@ googleAnalytics = "UA-154564632-1"
     name = "twitter"
     url = "https://twitter.com/skibitsky"
 
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/skibitsky"
+#   [[params.social]]
+#     name = "instagram"
+#     url = "https://instagram.com/skibitsky"
 
   [[params.social]]
     name = "github"
