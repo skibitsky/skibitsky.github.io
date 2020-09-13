@@ -3,7 +3,7 @@ title: "About"
 date: 2019-02-09T16:59:46+02:00
 draft: false
 ---
-![](/images/me.png)
+![](https://skibitsky.com/images/me.png)
 
 Hi, I am Gleb 👋
 
