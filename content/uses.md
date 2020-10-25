@@ -10,7 +10,6 @@ This page describes software I use. Other people [also do](https://github.com/we
 ## Browsers
 * [Safari](https://www.apple.com/safari/) - my main browser. It's fast and respects privacy
 * [Firefox](https://www.mozilla.org/en-US/firefox/) - amazing open source browser. I would use it as my main browser if it had a level of synchronisation between Mac and iPhone that Safari has
-* [Brave](https://brave.com) - if suddenly I need Chromium, I use Brave
 
 ## Productivity 
 * [Things 3](http://culturedcode.com) - my task management system. All my personal, hobby, study and work tasks live there. It has a lot of powerful features and pleasant design (Apple Design Award)
@@ -19,7 +18,6 @@ This page describes software I use. Other people [also do](https://github.com/we
 	![](https://skibitsky.com/images/alfred-bear-screenshot.png)
 	I can then export the note from Bear (I prefer PDF) to share it with somebody
 * [Fantastical 2](https://flexibits.com/fantastical) - my favourite calendar app. Has [NLP](https://en.wikipedia.org/wiki/Natural%20language%20processing) support
-* [Timing](https://timingapp.com/?lang=en) - the tracking app. I track all my “digital” time using Timing’s rules and my [current-task](https://github.com/skibitsky/current-task) Alfred workflow
 * [MindNode](https://mindnode.com) - an app for creating mind maps. I use it during brainstorming sessions, ideas, visual information structuring and for many other things
 * [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - the core app of macOS automation. I started using it last year and already have ~200 macros that boost my productivity a lot. 
 ## Code
@@ -82,7 +80,6 @@ This page describes software I use. Other people [also do](https://github.com/we
 * [BetterTouchTool](https://folivora.ai) - app that allows you to customise various input devices. I use it to customise TouchBar
 * [gSwitch](https://codyschrank.github.io/gSwitch/) - open-source menu bar app that allows control over the gpu
 ## Safari Extensions 
-* [DuckDuckGo Privacy](https://duckduckgo.com/app) - blocks tracking
 * [DarkReader](http://darkreader.org) - enables dark mode for all websites
 * [Cascadea](https://cascadea.app) - apply custom themes to the websites
 * [Select Like A Boss](https://apps.apple.com/lt/app/select-like-a-boss/id1437310115?mt=12) - allows to select text invite URLs. By default Safari will enable drag-and-drop mechanic
