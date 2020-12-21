@@ -82,6 +82,5 @@ This page describes software I use. Other people [also do](https://github.com/we
 ## Safari Extensions 
 * [DarkReader](http://darkreader.org) - enables dark mode for all websites
 * [Cascadea](https://cascadea.app) - apply custom themes to the websites
-* [Select Like A Boss](https://apps.apple.com/lt/app/select-like-a-boss/id1437310115?mt=12) - allows to select text invite URLs. By default Safari will enable drag-and-drop mechanic
 * [Wipr](https://giorgiocalderolla.com/wipr.html) - ad blocker. Used uBlock Origin before.
 * [Vimari](https://github.com/televator-apps/vimari#readme) - provides keyboard based navigation. Port of Vimium.
