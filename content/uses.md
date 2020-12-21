@@ -20,43 +20,38 @@ This page describes software I use. Other people [also do](https://github.com/we
 * [Fantastical 2](https://flexibits.com/fantastical) - my favourite calendar app. Has [NLP](https://en.wikipedia.org/wiki/Natural%20language%20processing) support
 * [MindNode](https://mindnode.com) - an app for creating mind maps. I use it during brainstorming sessions, ideas, visual information structuring and for many other things
 * [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - the core app of macOS automation. I started using it last year and already have ~200 macros that boost my productivity a lot. 
+
 ## Code
 * [JetBrains Rider](http://jetbrains.com/rider/) - cross-platform .NET IDE based on IntelliJ and ReSharper.
 * [Visual Studio Code](http://code.visualstudio.com) - hackable electron-based code editor. Use it when working with Go, Solidity or JS. Used [Atom](http://atom.io) before
-* [Sublime Text](https://www.sublimetext.com) - native text editor. I use to modify my [dotfiles](https://github.com/skibitsky/dotfiles) and other configs because of how fast it is
 * [Xcode](https://developer.apple.com/xcode/) - Apple’s IDE. The only way to do Swift development, but I also use it when I need to write some C++ code or build Unity project for iOS
-* [SnippetsLab](https://www.renfei.org/snippets-lab/) - code snippets manager
+
 ## Development
 * [Unity](https://unity3d.com) - my favourite real-time 3D development platform. Use it for my work and hobby games and apps
 * [Tower](https://www.git-tower.com/) - GUI Git Client of my choice. Before I used SourceTree, GitHub Desktop and GitKraken
 * [Dash](https://kapeli.com/dash) - offline documentation browser. I store gigabytes of documentation locally and search it via Dash’s Alfred workflow. This way I always have instant access to all documentation I need
-* [iTerm2](https://iterm2.com) - terminal emulator for macOS. On Windows I use [Hyper](https://hyper.is)
+* [iTerm2](https://iterm2.com) - terminal emulator for macOS. On Windows I use [Windows Terminal](https://github.com/microsoft/terminal)
 * [Paw](https://paw.cloud) - powerful and fast native HTTP client. I used [Insomnia](http://insomnia.rest) made with Electron.
 * [TablePlus](https://tableplus.com) - databas management app
 * [Transmit](https://panic.com/transmit/) - an app for accessing remote storages such as SFTP, S3 servers or Google Drive. Use it a lot at work because web interface of Google Drive is slow.
-* [Termius](https://www.termius.com) - SSH client
-* [Now](https://zeit.co/home) - for quick deployments
 * [Docker](https://www.docker.com) - containers management
+
 ## Graphics and Design
 * [Pixelmator Pro](http://pixelmator.com/pro/) - my favourite image editing tool. The team behind the app is very focused on integrating all features Apple ecosystem provides, including [Machine Learning](https://www.pixelmator.com/pro/machine-learning/)
-* [Blender](http://blender.org) - open source 3D creation tool
 * [Figma](http://figma.com) - collaborative prototyping tool
+
 ## Privacy and Security
 * [1Password](http://1Password.com) - password manager
 * [Backblaze](http://backblaze.com) - encrypted cloud backups
 * [TunnelBear](https://www.tunnelbear.com) - VPN
-* [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - macOS kernel extension that allows to monitor all network request and some of block them under a certain conditions. It is common to use ad blockers and privacy extensions nowadays, but these block only browser activity. Most of the apps use services by companies like Google or Facebook for various reasons. With Little Snitch it is possible to block these as well. I have 105 rules only for blocking Google analytics and various ad requests 🙂
 * [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html) - track camera and mic usage. An alternative to [OverSight](https://www.producthunt.com/posts/oversight-2) but without annoying notifications
+
 ## Tools and misc 
 * [Transmission](https://transmissionbt.com/)  - BitTorrent client
 * [Archiver](https://archiverapp.com) - archive manager. Supports all major formats and has minimalistic UI.
-* [Squash](https://www.realmacsoftware.com/squash/) - for quick image compression
 * [Permute](https://software.charliemonroe.net/permute/) - media format converter
-* [Paprika](http://www.paprikaapp.com) - receip manager 
 * [Mate Translate](https://gikken.co/mate-translate/) - handy translator app
 * [Lungo](https://sindresorhus.com/lungo) - prevents Mac from going to sleep
-* [Focus](https://heyfocus.com/?utm_source=focus_about) - website and application blocker
-* [WebTorrent](https://webtorrent.io) - Electron-powered BitTorrent client that allows to stream video while it is downloading
 * [CleanShot](https://getcleanshot.com) - a solid replacement for default macOS Screenshot app
 ## Communication
 * [Tweetbot](https://tapbots.com/tweetbot/mac/) - Twitter client
@@ -64,14 +59,18 @@ This page describes software I use. Other people [also do](https://github.com/we
 * [Slack](https://slack.com) - work communication
 * [Discord](http://discordapp.com) - communities
 * [FaceTime](https://en.wikipedia.org/wiki/FaceTime) - the best video calls experience
+
 ## Finances
 * [Bisq](https://bisq.network) - open-source P2P cryptocurrency exchange
+
 ## Office 
 * [iWork](https://www.apple.com/iwork/) - native apps for working with documents, spreadsheets, and presentations. Support collaboration and have web version.
+
 ## Software Management
 * [Setapp](https://setapp.com) - 100+ macOS apps available for €10 per month. Some of them have their own subscription when buying directly, so paying for Setapp can be a good money saver :) 
 * [CleanMyMac](https://cleanmymac.com) - powerful software to clean Mac using different tools
 * [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) - an app to mange JetBrains’ IDEs.
+
 ## System Customisation
 * [TripMode](https://www.tripmode.ch) - allows to whitelist a certain apps when on mobile network to save traffic
 * [Bartender](https://www.macbartender.com) - menu bar customisation
@@ -79,8 +78,8 @@ This page describes software I use. Other people [also do](https://github.com/we
 * [Contexts](https://contexts.co) - Command-Tab replacement. Unlike the default one, Contexts allows to switch between windows instead of apps. It also has a nice search feature
 * [BetterTouchTool](https://folivora.ai) - app that allows you to customise various input devices. I use it to customise TouchBar
 * [gSwitch](https://codyschrank.github.io/gSwitch/) - open-source menu bar app that allows control over the gpu
+
 ## Safari Extensions 
 * [DarkReader](http://darkreader.org) - enables dark mode for all websites
-* [Cascadea](https://cascadea.app) - apply custom themes to the websites
 * [Wipr](https://giorgiocalderolla.com/wipr.html) - ad blocker. Used uBlock Origin before.
 * [Vimari](https://github.com/televator-apps/vimari#readme) - provides keyboard based navigation. Port of Vimium.
