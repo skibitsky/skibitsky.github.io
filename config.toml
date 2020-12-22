@@ -77,14 +77,16 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://t.me/s/skibitsky"
 
   [[params.social]]
+    name = "marveilles"
+    url = "https://merveilles.town/@gleb"
+
+  [[params.social]]
     name = "github"
     url = "https://github.com/skibitsky"
+
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/skibitsky/"
-  [[params.social]]
-    name = "email"
-    url = "mailto:gleb@skibitsky.com"
 
 [mediaTypes]
   [mediaTypes."text/plain"]

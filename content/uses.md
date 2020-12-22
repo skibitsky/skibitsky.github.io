@@ -53,6 +53,7 @@ This page describes software I use. Other people [also do](https://github.com/we
 * [Mate Translate](https://gikken.co/mate-translate/) - handy translator app
 * [Lungo](https://sindresorhus.com/lungo) - prevents Mac from going to sleep
 * [CleanShot](https://getcleanshot.com) - a solid replacement for default macOS Screenshot app
+
 ## Communication
 * [Tweetbot](https://tapbots.com/tweetbot/mac/) - Twitter client
 * [Telegram](https://telegram.org) - main instant messaging app. I use native macOS client because it has more features over the Qt one (i.e. secret chats)
