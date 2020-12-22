@@ -7,7 +7,7 @@ draft: false
 
 Hi, I am Gleb 👋
 
-I am maker working mostly on Unity stuff. 
+I am maker, working mostly on Unity stuff. 
 
 ### Projects
 Planing to make a nice-looking "My Projects" page on this website to write about all cool things I worked on. Meanwhile you can check out my [GitHub](https://github.com/skibitsky) for open source projects or [LinkedIn](https://linkedin.com/in/skibitsky/) for formal experience.
