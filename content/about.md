@@ -19,3 +19,7 @@ I don't have university degree and I regret not dropping out of school when I tu
 In people I value liberty, creativity and dedication. 
 
 Happy to be alive for the first and last time.
+
+---
+### Website
+This website is powered by [Hugo](https://gohugo.io) and [GitHub Actions](https://github.com/skibitsky/skibitsky.github.io/actions). The sources can be found [here](https://github.com/skibitsky/skibitsky.github.io).
