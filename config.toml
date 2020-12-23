@@ -77,7 +77,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://t.me/s/skibitsky"
 
   [[params.social]]
-    name = "marveilles"
+    name = "merveilles"
     url = "https://merveilles.town/@gleb"
 
   [[params.social]]
@@ -85,8 +85,12 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://github.com/skibitsky"
 
   [[params.social]]
+    name = "spotify"
+    url = "https://open.spotify.com/user/213ossaw3zv5tairnnielggjq?si=Y68r0uATTbmVdYIFDYKJCg"
+
+  [[params.social]]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/skibitsky/"
+    url = "https://linkedin.com/in/skibitsky/"
 
 [mediaTypes]
   [mediaTypes."text/plain"]
