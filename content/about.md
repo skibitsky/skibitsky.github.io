@@ -22,4 +22,4 @@ Happy to be alive for the first and last time.
 
 ---
 ### Website
-This website is powered by [Hugo](https://gohugo.io) and [GitHub Actions](https://github.com/skibitsky/skibitsky.github.io/actions). The sources can be found [here](https://github.com/skibitsky/skibitsky.github.io).
+This website is powered by [Hugo](https://gohugo.io) and [GitHub Actions](https://github.com/skibitsky/skibitsky.github.io/actions). The source can be found [here](https://github.com/skibitsky/skibitsky.github.io).
