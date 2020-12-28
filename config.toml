@@ -30,15 +30,14 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
+
   # Default theme "light" or "dark"
-  defaultTheme = "light"
+  defaultTheme = "dark"
 
 [languages]
   [languages.en]
     title = "Gleb Skibitsky"
-    subtitle = ""
-    keywords = ""
-    copyright = ""
+    subtitle = "Gleb's Website"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
