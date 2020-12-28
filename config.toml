@@ -52,15 +52,15 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "/about"
         url = "/about"
       # [[languages.en.menu.main]]
       #   identifier = "Projects"
       #   name = "Projects"
       #   url = "/projects"
       [[languages.en.menu.main]]
-        identifier = "Uses"
-        name = "Uses"
+        identifier = "/uses"
+        name = "/uses"
         url = "/uses"
       # [[languages.en.menu.main]]
       #   identifier = "Resume"
