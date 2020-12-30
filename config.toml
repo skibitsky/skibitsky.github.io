@@ -26,7 +26,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   homeSubtitle = "Software Engineer // Game Developer"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/skibitsky/skibitsky.github.io/commit/"
+  gitUrl = "https://github.com/skibitsky/skibitsky.github.io/commit/source"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
