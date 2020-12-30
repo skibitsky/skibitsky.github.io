@@ -6,7 +6,7 @@ theme = "hello-friend-ng"
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-enableGitInfo = true
+enableGitInfo = false
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 
 [author]
@@ -26,7 +26,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   homeSubtitle = "Software Engineer // Game Developer"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/skibitsky/skibitsky.github.io/commit/source"
+  gitUrl = "https://github.com/skibitsky/skibitsky.github.io/commit/"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
