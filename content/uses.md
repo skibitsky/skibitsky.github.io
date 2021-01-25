@@ -13,7 +13,7 @@ This page describes software and hardware I use. Other people [also do][1] such 
 * Razer Deathadder
 * iPhone 8 Plus
 * AirPods Pro and Marshall Major II
-* Raspberry Pi Zero to host [Pi Hole]()(https://github.com/pi-hole/pi-hole) and  Pi 4 for other things
+* Raspberry Pi Zero to host [Pi Hole](https://github.com/pi-hole/pi-hole) and  Pi 4 for other things
 * Nintendo Switch 
 
 ## Browsers
