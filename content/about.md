@@ -29,4 +29,4 @@ This website is powered by [Hugo][4] and [GitHub Actions][5]. The source can be 
 [5]:	https://github.com/skibitsky/skibitsky.github.io/actions
 [6]:	https://github.com/skibitsky/skibitsky.github.io
 
-[image-1]:	https://skibitsky.com/images/me.png
+[image-1]:	https://skibitsky.com/images/me.webp
