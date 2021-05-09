@@ -31,8 +31,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
 
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  [params.footer]
+    trademark = false
+    rss = false
+    copyright = false
+    author = false
 
 [languages]
   [languages.en]
@@ -43,10 +46,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     [languages.en.params.logo]
       logoText = "$ cd /home/"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
   # You can create a language based menu
     [languages.en.menu]
