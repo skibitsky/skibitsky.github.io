@@ -9,9 +9,6 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 enableGitInfo = false
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 
-[author]
-  name = "Gleb Skibitsky"
-
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -40,7 +37,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [languages]
   [languages.en]
     title = "Gleb Skibitsky"
-    subtitle = "Gleb's Website"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
