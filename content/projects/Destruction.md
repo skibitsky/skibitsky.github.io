@@ -1,5 +1,5 @@
 ---
-title: "Destruction | Projects"
+title: "Destruction"
 draft: false
 ---
 
