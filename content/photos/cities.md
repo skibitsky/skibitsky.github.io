@@ -1,7 +1,7 @@
 ---
 title: "Cities"
 date: 2021-08-14T16:48:57+03:00
-draft: true
+draft: false
 ---
 
 {{< image src="https://sandelis.fra1.cdn.digitaloceanspaces.com/photos/cities/13.jpg" position="left" style="width:400px;" >}}
