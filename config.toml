@@ -49,18 +49,16 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
         identifier = "about"
         name = "/about"
         url = "/about"
-      # [[languages.en.menu.main]]
-      #   identifier = "Projects"
-      #   name = "Projects"
-      #   url = "/projects"
+
       [[languages.en.menu.main]]
         identifier = "/uses"
         name = "/uses"
         url = "/uses"
-      # [[languages.en.menu.main]]
-      #   identifier = "Resume"
-      #   name = "Resume"
-      #   url = "/resume-skibitsky.pdf"
+        
+      [[languages.en.menu.main]]
+        identifier = "Photos"
+        name = "/photos"
+        url = "/photos/cities"
 
   [[params.social]]
     name = "twitter"
