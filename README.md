@@ -1,5 +1,4 @@
-# skibitsky.com [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fskibitsky%2Fskibitsky.github.io%2Fbadge%3Fref%3Dsource&style=flat)](https://actions-badge.atrox.dev/skibitsky/skibitsky.github.io/goto?ref=source)
-> My personal website made with [Hugo](https://gohugo.io)
+# skibitsky.com [![Deploy on GH Pages](https://github.com/skibitsky/skibitsky.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/skibitsky/skibitsky.github.io/actions/workflows/gh-pages.yml)
 
 I use [Hello Friend NG](https://github.com/skibitsky/hugo-theme-hello-friend-ng) theme becasue of its simplicity and system-based dark mode support.
 
