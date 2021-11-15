@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts by Gleb Skibitsky</title><link>/posts/</link><description>Recent content in Posts by Gleb Skibitsky</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Nov 2021 19:13:28 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Slack Focus Status</title><link>/posts/automation/slack-focus-status/</link><pubDate>Mon, 15 Nov 2021 19:13:28 +0200</pubDate><guid>/posts/automation/slack-focus-status/</guid><description>Apple introduced a new feature called Focus Mode in macOS Monterey and iOS 15. It gives users more control over all distracting things modern devices do. I have multiple focus modes: for learning, working, reading, etc. There is also one I use for deep work. When doing deep work, I want to avoid being distracted by anything, and therefore I mute almost every app, including Slack. One deep work session can last for up to a few hours.</description><content type="html"><![CDATA[<p>Apple introduced a new feature called Focus Mode in macOS Monterey and iOS 15. It gives users more control over all distracting things modern devices do. I have multiple focus modes: for learning, working, reading, etc. There is also one I use for deep work. When doing deep work, I want to avoid being distracted by anything, and therefore I mute almost every app, including Slack. One deep work session can last for up to a few hours. During this time, Slack shows that I’m active (green circle next to my name). However, I won’t respond to any messages which can make my coworkers to think that I’m actually slacking (ba dum tss) instead of doing my work.</p>
+<p>The solution I come up with is to use Slack API to automatically set status when my deep work focus mode turns on. And disable when it turns off.</p>
+<p>Example of Slack Status:
+
+    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Slack%20Status.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:220px;"  />
+
+</p>
+<p>It works pretty well for me. Despite the fact the automation is handled by Siri Shortcuts on my iPhone, it also works if focus mode is enabled/disabled on a Mac (assuming the iPhone is online).</p>
+<p>Below I describe how to do such automation thing in less than 10 minutes.</p>
+<h2 id="0-create-slack-app">0. Create Slack App</h2>
+<ol>
+<li>Go to <a href="https://api.slack.com/apps">https://api.slack.com/apps</a> and click on “Create New App” button.</li>
+<li>Enter the app name and select Slack Workspace you want to update your status in.</li>
+<li>After the app is created, select to “OAuth &amp; Permissions” from the left menu.</li>
+<li>Scroll down to “Scopes” section and add <code>users.profile:write</code> User Token Scope. This will give your app permissions to modify user status.
+
+    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Add%20Slack%20Scope.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
+
+</li>
+<li>The last step is to install your app into workplace. Select “Install App” in the left menu and follow instructions on that page.</li>
+<li>After the app is installed is ready, you should be able to copy OAuth token. Don’t share this token with anyone! You will need this token in the next step.
+
+    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/User%20OAuth%20Key.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
+
+</li>
+</ol>
+<h2 id="1-configure-siri-shortcuts">1. Configure Siri Shortcuts</h2>
+<p>I made two pretty similar Siri Shortcuts: one to enable, and another one to disable Slack status. Both have comments explaining how they work and import questions asking for your Slack OAuth token.</p>
+<p><em>Enable Slack Focus Status shortcut</em>
+
+    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Enable%20Focus%20Shortcut.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
+
+</p>
+<p>Import both shortcuts and add your Slack OAuth token.</p>
+<p><a href="https://www.icloud.com/shortcuts/9b84437fcf794aa890dec998723b5fe2">Download “Enable Slack Focus Status” shortcut</a></p>
+<p><a href="https://www.icloud.com/shortcuts/216dba009f3249949222a17cb3b257b2">Download “Disable Slack Focus Status” shortcut</a></p>
+<h2 id="2-set-up-siri-shortcuts-automation">2. Set up Siri Shortcuts Automation</h2>
+<ol>
+<li>Finally, head over to “Automation” tab on iOS/iPadOS Siri Shortcuts app and create new automation.</li>
+<li>Scroll down to the list of your Focus modes and select the one you want to trigger Slack Status.</li>
+<li>Choose “When Turning On” and proceed to the next screen.</li>
+<li>Add “Run Shortcut” action and select “Enable Slack Focus Status” shortcut.</li>
+<li>Tap on “Next” and on the next screen disable “Ask Before Running”.</li>
+<li>Create one more automation for the same Focus mode, but this time select “When Turning Off” trigger and “Disable Slack Focus Status” shortcut.</li>
+</ol>
+<p>That’s it! Now you should be able to automatically share your Focus mode on Slack 🙂</p>
+]]></content></item></channel></rss>

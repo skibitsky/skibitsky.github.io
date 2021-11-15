@@ -1,0 +1,127 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=author content="Gleb Skibitsky ">
+<meta name=description content="Apple introduced a new feature called Focus Mode in macOS Monterey and iOS 15. It gives users more control over all distracting things modern devices do. I have multiple focus modes: for learning, working, reading, etc. There is also one I use for deep work. When doing deep work, I want to avoid being distracted by anything, and therefore I mute almost every app, including Slack. One deep work session can last for up to a few hours.">
+<meta name=keywords content="homepage,blog,development,programming,games,blockchain,gamedev,skibickij,Siri Shortcuts,Productivity">
+<meta name=robots content="noodp">
+<meta name=theme-color content>
+<link rel=canonical href=/posts/automation/slack-focus-status/>
+<title>
+Slack Focus Status :: Gleb's Website
+</title>
+<link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css rel=stylesheet type=text/css>
+<link rel=stylesheet href=/main.21510ff0bdf856ac5a1fcb9d589adba8891a89299a9d13db267909fa3f97cf04.css>
+<meta itemprop=name content="Slack Focus Status">
+<meta itemprop=description content="Apple introduced a new feature called Focus Mode in macOS Monterey and iOS 15. It gives users more control over all distracting things modern devices do. I have multiple focus modes: for learning, working, reading, etc. There is also one I use for deep work. When doing deep work, I want to avoid being distracted by anything, and therefore I mute almost every app, including Slack. One deep work session can last for up to a few hours."><meta itemprop=datePublished content="2021-11-15T19:13:28+02:00">
+<meta itemprop=dateModified content="2021-11-15T19:13:28+02:00">
+<meta itemprop=wordCount content="492"><meta itemprop=image content="/">
+<meta itemprop=keywords content="Siri Shortcuts,Productivity,">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="/">
+<meta name=twitter:title content="Slack Focus Status">
+<meta name=twitter:description content="Apple introduced a new feature called Focus Mode in macOS Monterey and iOS 15. It gives users more control over all distracting things modern devices do. I have multiple focus modes: for learning, working, reading, etc. There is also one I use for deep work. When doing deep work, I want to avoid being distracted by anything, and therefore I mute almost every app, including Slack. One deep work session can last for up to a few hours.">
+<meta property="article:published_time" content="2021-11-15 19:13:28 +0200 +0200">
+</head>
+<body>
+<div class=container>
+<header class=header>
+<span class=header__inner>
+<a href=/ style=text-decoration:none>
+<div class=logo>
+<span class=logo__mark>></span>
+<span class=logo__text>$ cd /home/</span>
+<span class=logo__cursor>
+</span>
+</div>
+</a>
+<span class=header__right>
+<nav class=menu>
+<ul class=menu__inner><li><a href=/about>/about</a></li><li><a href=/photos/cities>/photos</a></li><li><a href=/posts>/posts</a></li><li><a href=/uses>/uses</a></li>
+</ul>
+</nav>
+<span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+</span>
+</span>
+</span>
+</header>
+<div class=content>
+<main class=post>
+<div class=post-info>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+3 minutes
+</p>
+</div>
+<article>
+<h1 class=post-title>
+<a href=/posts/automation/slack-focus-status/>Slack Focus Status</a>
+</h1>
+<div class=post-content>
+<p>Apple introduced a new feature called Focus Mode in macOS Monterey and iOS 15. It gives users more control over all distracting things modern devices do. I have multiple focus modes: for learning, working, reading, etc. There is also one I use for deep work. When doing deep work, I want to avoid being distracted by anything, and therefore I mute almost every app, including Slack. One deep work session can last for up to a few hours. During this time, Slack shows that I’m active (green circle next to my name). However, I won’t respond to any messages which can make my coworkers to think that I’m actually slacking (ba dum tss) instead of doing my work.</p>
+<p>The solution I come up with is to use Slack API to automatically set status when my deep work focus mode turns on. And disable when it turns off.</p>
+<p>Example of Slack Status:
+<img src=https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Slack%20Status.webp alt="Slack Status" class=left style=border-radius:3px;width:220px>
+</p>
+<p>It works pretty well for me. Despite the fact the automation is handled by Siri Shortcuts on my iPhone, it also works if focus mode is enabled/disabled on a Mac (assuming the iPhone is online).</p>
+<p>Below I describe how to do such automation thing in less than 10 minutes.</p>
+<h2 id=0-create-slack-app>0. Create Slack App</h2>
+<ol>
+<li>Go to <a href=https://api.slack.com/apps>https://api.slack.com/apps</a> and click on “Create New App” button.</li>
+<li>Enter the app name and select Slack Workspace you want to update your status in.</li>
+<li>After the app is created, select to “OAuth & Permissions” from the left menu.</li>
+<li>Scroll down to “Scopes” section and add <code>users.profile:write</code> User Token Scope. This will give your app permissions to modify user status.
+<img src=https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Add%20Slack%20Scope.webp alt="Slack Status" class=left style=border-radius:3px;width:450px>
+</li>
+<li>The last step is to install your app into workplace. Select “Install App” in the left menu and follow instructions on that page.</li>
+<li>After the app is installed is ready, you should be able to copy OAuth token. Don’t share this token with anyone! You will need this token in the next step.
+<img src=https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/User%20OAuth%20Key.webp alt="Slack Status" class=left style=border-radius:3px;width:450px>
+</li>
+</ol>
+<h2 id=1-configure-siri-shortcuts>1. Configure Siri Shortcuts</h2>
+<p>I made two pretty similar Siri Shortcuts: one to enable, and another one to disable Slack status. Both have comments explaining how they work and import questions asking for your Slack OAuth token.</p>
+<p><em>Enable Slack Focus Status shortcut</em>
+<img src=https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Enable%20Focus%20Shortcut.webp alt="Slack Status" class=left style=border-radius:3px;width:450px>
+</p>
+<p>Import both shortcuts and add your Slack OAuth token.</p>
+<p><a href=https://www.icloud.com/shortcuts/9b84437fcf794aa890dec998723b5fe2>Download “Enable Slack Focus Status” shortcut</a></p>
+<p><a href=https://www.icloud.com/shortcuts/216dba009f3249949222a17cb3b257b2>Download “Disable Slack Focus Status” shortcut</a></p>
+<h2 id=2-set-up-siri-shortcuts-automation>2. Set up Siri Shortcuts Automation</h2>
+<ol>
+<li>Finally, head over to “Automation” tab on iOS/iPadOS Siri Shortcuts app and create new automation.</li>
+<li>Scroll down to the list of your Focus modes and select the one you want to trigger Slack Status.</li>
+<li>Choose “When Turning On” and proceed to the next screen.</li>
+<li>Add “Run Shortcut” action and select “Enable Slack Focus Status” shortcut.</li>
+<li>Tap on “Next” and on the next screen disable “Ask Before Running”.</li>
+<li>Create one more automation for the same Focus mode, but this time select “When Turning Off” trigger and “Disable Slack Focus Status” shortcut.</li>
+</ol>
+<p>That’s it! Now you should be able to automatically share your Focus mode on Slack 🙂</p>
+</div>
+</article>
+<hr>
+<div class=post-info>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg>
+<span class=tag><a href=/tags/siri-shortcuts/>Siri Shortcuts</a></span>
+<span class=tag><a href=/tags/productivity/>Productivity</a></span>
+</p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6A2 2 0 004 4v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+492 Words
+</p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+15-11-2021 17:13 +0000
+</p>
+</div>
+</main>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class=footer__content>
+<span><a href=/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span>
+</div>
+</div>
+</footer>
+</div>
+<script type=text/javascript src=/bundle.min.599099f1f14b78b657d524b28e10e0c5098e7cd46e9c7aed73d577068a276c3ff1bb234cbf29cb313333e83cf411727b43157c91ce5b809e2ffc81664614608e.js integrity="sha512-WZCZ8fFLeLZX1SSyjhDgxQmOfNRunHrtc9V3BoonbD/xuyNMvynLMTMz6Dz0EXJ7QxV8kc5bgJ4v/IFmRhRgjg=="></script>
+</body>
+</html>
