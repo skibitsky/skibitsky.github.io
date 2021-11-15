@@ -30,13 +30,15 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [params.footer]
     trademark = false
-    rss = false
+    rss = true
     copyright = false
     author = false
+  
+  [author]
+    name = 'Gleb Skibitsky'
 
 [languages]
   [languages.en]
-    title = "Gleb Skibitsky"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
@@ -49,6 +51,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
         identifier = "about"
         name = "/about"
         url = "/about"
+        
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "/posts"
+        url = "/posts"
 
       [[languages.en.menu.main]]
         identifier = "/uses"
@@ -87,14 +94,3 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [mediaTypes]
   [mediaTypes."text/plain"]
   suffixes = ["asc"]
-
-# And you can even create generic menu
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
-  [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/projects"
