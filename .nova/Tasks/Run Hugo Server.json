@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\nhugo server -D"
+    }
+  },
+  "identifier" : "9243D756-1CD9-4125-8EE7-9EB0929A1BF7"
+}
