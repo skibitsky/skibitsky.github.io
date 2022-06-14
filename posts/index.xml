@@ -14,22 +14,22 @@
 <li>After the app is created, select to “OAuth &amp; Permissions” from the left menu.</li>
 <li>Scroll down to “Scopes” section and add <code>users.profile:write</code> User Token Scope. This will give your app permissions to modify user status.
 
-    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Add%20Slack%20Scope.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
-
+	    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Add%20Slack%20Scope.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
+	
 </li>
 <li>The last step is to install your app into workplace. Select “Install App” in the left menu and follow instructions on that page.</li>
 <li>After the app is installed is ready, you should be able to copy OAuth token. Don’t share this token with anyone! You will need this token in the next step.
 
-    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/User%20OAuth%20Key.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
-
+	    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/User%20OAuth%20Key.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
+	
 </li>
 </ol>
 <h2 id="1-configure-siri-shortcuts">1. Configure Siri Shortcuts</h2>
 <p>I made two pretty similar Siri Shortcuts: one to enable, and another one to disable Slack status. Both have comments explaining how they work and import questions asking for your Slack OAuth token.</p>
 <p><em>Enable Slack Focus Status shortcut</em>
 
-    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Enable%20Focus%20Shortcut.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
-
+	    <img src="https://sandelis.fra1.cdn.digitaloceanspaces.com/posts/automation/slack-foucs-status/Enable%20Focus%20Shortcut.webp"  alt="Slack Status"  class="left"  style="border-radius: 3px; width:450px;"  />
+	
 </p>
 <p>Import both shortcuts and add your Slack OAuth token.</p>
 <p><a href="https://www.icloud.com/shortcuts/9b84437fcf794aa890dec998723b5fe2">Download “Enable Slack Focus Status” shortcut</a></p>
