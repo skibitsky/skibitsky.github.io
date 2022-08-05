@@ -4,6 +4,9 @@ date: 2021-08-14T16:48:57+03:00
 draft: false
 ---
 
+{{< image src="https://sandelis.fra1.cdn.digitaloceanspaces.com/photos/cities/16.jpg" position="left" style="width:400px;" >}}
+Madrid, Spain
+
 {{< image src="https://sandelis.fra1.cdn.digitaloceanspaces.com/photos/cities/15.jpg" position="left" style="width:400px;" >}}
 Helsinki, Finland
 
