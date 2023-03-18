@@ -5,28 +5,24 @@ draft: false
 ---
 ![][image-1]
 
-Hi, I am Gleb 👋
+Hi, my name is Gleb 👋
 
-I am a maker, working mostly on Unity stuff. 
+I am software engineer from Lithunia building the future of education at [Futuclass][0].
 
-### Values
-As libertarian, I stand for equal rights, freedom of expression and [NAP][1]. In people, I value liberty, creativity, and dedication.
+### Interests
+* Game and web development
+* Blockchain and Web3
+* Japan and Japanese language
+* Cycling
 
-### Projects
-Planing to make a nice-looking "My Projects" page on this website to write about all cool things I worked on. Meanwhile, you can check out my [GitHub][2] for open-source projects or [LinkedIn][3] for formal experience.
-
-### Education
-I don't have a university degree and I regret not dropping out of school when I turned 16. Being very motivated in what I do, I find formal education to be a waste of time and resources. 
 
 ---
 ### Website
-This website is powered by [Hugo][4] and [GitHub Actions][5]. The source can be found [here][6].
+This website is powered by [Hugo][1] and [GitHub Actions][2]. The source can be found [here][3].
 
-[1]:	https://en.wikipedia.org/wiki/Non-aggression_principle
-[2]:	https://github.com/skibitsky
-[3]:	https://linkedin.com/in/skibitsky/
-[4]:	https://gohugo.io
-[5]:	https://github.com/skibitsky/skibitsky.github.io/actions
-[6]:	https://github.com/skibitsky/skibitsky.github.io
+[0]:  https://futuclass.com
+[1]:	https://gohugo.io
+[2]:	https://github.com/skibitsky/skibitsky.github.io/actions
+[3]:	https://github.com/skibitsky/skibitsky.github.io
 
 [image-1]:	https://skibitsky.com/images/me.webp
