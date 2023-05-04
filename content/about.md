@@ -7,7 +7,7 @@ draft: false
 
 Hi, my name is Gleb 👋
 
-I am software engineer from Lithunia building the future of education at [Futuclass][0].
+I am software engineer from Lithuania 🇱🇹 living in Japan 🇯🇵 and building the future of education at [Futuclass][0].
 
 ### Interests
 * Game and web development
